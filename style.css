@@ -3,12 +3,13 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #FFF;
 }
 *{
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    background-color: #FFF;
+    
 }
 
 /* shard option */
@@ -169,6 +170,10 @@ footer {
         gap:20px;
         justify-content: center;
     }
+    .features-product.container {
+        flex-direction: column-reverse;
+        gap: 45px;
+    }
    
 }
 
@@ -196,5 +201,9 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap:20px;
         justify-content: center;
+    }
+    .features-product.container {
+        flex-direction: column-reverse;
+        gap: 45px;
     }
 }
