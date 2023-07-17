@@ -109,13 +109,20 @@ section{
     justify-content: space-evenly;
 }
 /* footer section */
-footer{
+footer {
     background: #0A0826;
-    padding: 0px 50px;
-}
-.footer-main{
+    padding: 20px 50px; /* Adjust the padding as needed */
+    color: #fff; /* Add text color for better visibility */
+  }
+  
+  .footer-main {
     text-align: center;
-    background: #0A0826;
+  }
+  .footer-main{
+    background: transparent;
+}  
+.footer-main, .social-icon h4,p{
+    background-color: transparent;
 }
 /* all responsive design */
 /* mobile responsive  */
